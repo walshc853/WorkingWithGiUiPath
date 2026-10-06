@@ -116,6 +116,6 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </isactr:ConnectorActivity>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Pet name is &quot; + Pet.name]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Pet name is &quot; + Pet.name + &quot;.&quot;]" />
   </Sequence>
 </Activity>
